@@ -1,12 +1,12 @@
 Data Format:
--- Data files are stored in Data/[name of data set]/graph.txt
+* Data files are stored in Data/[name of data set]/graph.txt
   -- All data sets are either publicly available, provided here, or the code used to generate them is provided
   -- We provide data set samples to show the format for the various experiments 
--- Delimiter is hard-coded in driver files
--- For 0/1 Correlation Clustering: 
+* Delimiter is hard-coded in driver files
+* For 0/1 Correlation Clustering: 
   -- The first line of the file must contain the total number of nodes (anything that follows it on the line will be ignored)
   -- Rest of file lists positive edges as [node1] [node2]
--- For Consensus Clustering, no header line is needed
+* For Consensus Clustering, no header line is needed
   -- File contains categorical data, which will be interpreted into input clusterings
 
 To Compile: javac *.java
